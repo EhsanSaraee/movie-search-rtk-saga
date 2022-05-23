@@ -1,8 +1,15 @@
+import Home from 'pages/Home';
+import Movie from 'pages/Movie';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 const App = () => {
    return (
-      <>
-         <h1>Movie Search App</h1>
-      </>
+      <BrowserRouter>
+         <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/movie/:id" element={<Movie />} />
+         </Routes>
+      </BrowserRouter>
    );
 };
 
