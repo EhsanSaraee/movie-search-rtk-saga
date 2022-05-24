@@ -4,3 +4,6 @@ const API_ENDPOINT = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOV
 
 export const fetchMovies = async (movie) =>
    axios.get(`${API_ENDPOINT}&s=${movie}`);
+
+export const fetchMovie = async (movieID) =>
+   axios.get(`${API_ENDPOINT}&i=${movieID}`);

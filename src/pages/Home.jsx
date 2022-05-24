@@ -1,10 +1,10 @@
-import Search from 'components/Search/Search';
+import { MovieList, Search } from 'components';
 
 const Home = () => {
    return (
       <>
          <Search />
-         {/* MovieList */}
+         <MovieList />
       </>
    );
 };

@@ -17,6 +17,13 @@ const useStyles = makeStyles(() => ({
       paddingTop: '0.5rem',
       fontSize: '2.15rem',
    },
+   section: {
+      width: '90vw',
+      display: 'flex',
+      gap: '2rem',
+      maxWidth: '1170px',
+      margin: '4rem auto',
+   },
 }));
 
 export default useStyles;

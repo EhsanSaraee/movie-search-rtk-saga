@@ -1,5 +1,4 @@
-import Home from 'pages/Home';
-import Movie from 'pages/Movie';
+import { Home, Movie } from 'pages';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const App = () => {

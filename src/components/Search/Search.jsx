@@ -3,7 +3,7 @@ import { useMovie } from 'hooks/movie';
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { getMovies } from 'redux/features/movieSlice';
-import useStyles from './styles';
+import useStyles from 'styles';
 
 const Search = () => {
    const [name, setName] = useState('');
